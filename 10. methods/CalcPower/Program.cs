@@ -13,7 +13,11 @@ namespace CalcPower {
 		}
 
 		static int Power(int number, int exponent) {
-			int result = 1;
+			int result = number;
+            for (int i = 0; i < exponent-1; i++)
+            {
+                result = result * number;
+            }
 			return result;
 		}
 	}

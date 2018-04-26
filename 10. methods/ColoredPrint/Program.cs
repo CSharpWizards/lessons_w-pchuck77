@@ -11,7 +11,8 @@ namespace ColoredPrint {
 		}
 
 		static void PrintColoredText(string text, ConsoleColor color) {
-			// пиши код здесь
+            Console.ForegroundColor = color;
+            Console.WriteLine(text);
 		}
 	}
 }
