@@ -13,7 +13,7 @@ namespace ConsoleApplication1
         static bool gameover = false;
         static Tank player = new Tank(15, 15, Direction.Left);
         static void Main(string[] args)
-        {         
+        {
             player.color = ConsoleColor.Green;
             
             while (!gameover)
